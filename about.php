@@ -46,7 +46,7 @@ if(!isset($user_id)){
 
         <div class="content">
             <h3>why choose us?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit voluptatum alias sed est in magni nihil nisi deleniti nostrum.</p>
+            <p>We ensure fresh, elegant flowers with reliable service to make every occasion memorable.</p>
             <a href="shop.php" class="btn">shop now</a>
         </div>
 
@@ -56,7 +56,7 @@ if(!isset($user_id)){
 
         <div class="content">
             <h3>what we provide?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit voluptatum alias sed est in magni nihil nisi deleniti nostrum.</p>
+            <p>Premium bouquets, custom floral designs, and timely delivery for all your special moments.</p>
             <a href="contact.php" class="btn">contact us</a>
         </div>
 
@@ -74,7 +74,7 @@ if(!isset($user_id)){
 
         <div class="content">
             <h3>who we are?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit voluptatum alias sed est in magni nihil nisi deleniti nostrum.</p>
+            <p>A passionate floral team crafting beauty and emotions into every petal.</p>
             <a href="#reviews" class="btn">clients reviews</a>
         </div>
 
@@ -90,7 +90,7 @@ if(!isset($user_id)){
 
         <div class="box">
             <img src="images/pic-1.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia animi consequatur nostrum cumque itaque ducimus, iure expedita voluptates. Minima, minus.</p>
+            <p>The pink rose symbolizes grace and admiration. It's the perfect bloom to express gentle affection and love.</p>
             <div class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -98,12 +98,12 @@ if(!isset($user_id)){
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>John Deo</h3>
         </div>
 
         <div class="box">
             <img src="images/pic-2.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia animi consequatur nostrum cumque itaque ducimus, iure expedita voluptates. Minima, minus.</p>
+            <p>Cottage roses bring a vintage charm with their lush petals and romantic essence—timeless and elegant.</p>
             <div class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -111,12 +111,12 @@ if(!isset($user_id)){
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>Mona</h3>
         </div>
 
         <div class="box">
             <img src="images/pic-3.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia animi consequatur nostrum cumque itaque ducimus, iure expedita voluptates. Minima, minus.</p>
+            <p>Lavender is known for its calming scent and soft beauty, symbolizing serenity and devotion.</p>
             <div class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -124,12 +124,12 @@ if(!isset($user_id)){
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>Asta</h3>
         </div>
 
         <div class="box">
             <img src="images/pic-4.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia animi consequatur nostrum cumque itaque ducimus, iure expedita voluptates. Minima, minus.</p>
+            <p>Bright and cheerful, the yellow tulip represents sunshine, hope, and happy thoughts.</p>
             <div class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -137,12 +137,12 @@ if(!isset($user_id)){
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>Selena Lisa</h3>
         </div>
 
         <div class="box">
             <img src="images/pic-5.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia animi consequatur nostrum cumque itaque ducimus, iure expedita voluptates. Minima, minus.</p>
+            <p>The red tulip is a bold expression of true love and passion—simple, elegant, and heartfelt.</p>
             <div class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -150,12 +150,12 @@ if(!isset($user_id)){
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>Leomord Hylos</h3>
         </div>
 
         <div class="box">
             <img src="images/pic-6.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia animi consequatur nostrum cumque itaque ducimus, iure expedita voluptates. Minima, minus.</p>
+            <p>A charming mix of soft pink flowers, this bouquet radiates love, sweetness, and warmth.</p>
             <div class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -163,7 +163,7 @@ if(!isset($user_id)){
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>Lily Kagura</h3>
         </div>
 
     </div>

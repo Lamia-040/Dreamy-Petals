@@ -66,7 +66,7 @@ if(isset($_POST['add_to_cart'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>home</title>
+   <title>Dreamy Petals</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -83,7 +83,7 @@ if(isset($_POST['add_to_cart'])){
 
    <div class="content">
       <h3>new collections</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime reiciendis, modi placeat sit cumque molestiae.</p>
+      <p>Explore our latest flower collections—crafted with love to brighten your moments.</p>
       <a href="about.php" class="btn">discover more</a>
    </div>
 
@@ -132,7 +132,7 @@ if(isset($_POST['add_to_cart'])){
 
    <div class="content">
       <h3>have any questions?</h3>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio officia aliquam quis saepe? Quia, libero.</p>
+      <p>We're always here to make your floral experience special. Reach out anytime!</p>
       <a href="contact.php" class="btn">contact us</a>
    </div>
 
