@@ -1,17 +1,10 @@
 <?php
-
 @include 'config.php';
-
 session_start();
 
-$user_id = $_SESSION['user_id'];
-
-if(!isset($user_id)){
-   header('location:login.php');
-}
-
+// Get user_id if logged in, but don't force login
+$user_id = isset($_SESSION['user_id']) ? $_SESSION['user_id'] : null;
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,45 +32,36 @@ if(!isset($user_id)){
 <section class="about">
 
     <div class="flex">
-
         <div class="image">
             <img src="images/about-img-1.png" alt="">
         </div>
-
         <div class="content">
             <h3>why choose us?</h3>
             <p>We ensure fresh, elegant flowers with reliable service to make every occasion memorable.</p>
             <a href="shop.php" class="btn">shop now</a>
         </div>
-
     </div>
 
     <div class="flex">
-
         <div class="content">
             <h3>what we provide?</h3>
             <p>Premium bouquets, custom floral designs, and timely delivery for all your special moments.</p>
             <a href="contact.php" class="btn">contact us</a>
         </div>
-
         <div class="image">
             <img src="images/about-img-2.jpg" alt="">
         </div>
-
     </div>
 
     <div class="flex">
-
         <div class="image">
             <img src="images/about-img-3.jpg" alt="">
         </div>
-
         <div class="content">
             <h3>who we are?</h3>
             <p>A passionate floral team crafting beauty and emotions into every petal.</p>
             <a href="#reviews" class="btn">clients reviews</a>
         </div>
-
     </div>
 
 </section>
@@ -87,7 +71,6 @@ if(!isset($user_id)){
     <h1 class="title">client's reviews</h1>
 
     <div class="box-container">
-
         <div class="box">
             <img src="images/pic-1.png" alt="">
             <p>The pink rose symbolizes grace and admiration. It's the perfect bloom to express gentle affection and love.</p>
@@ -165,24 +148,12 @@ if(!isset($user_id)){
             </div>
             <h3>Lily Kagura</h3>
         </div>
-
     </div>
 
 </section>
 
-
-
-
-
-
-
-
-
-
-
 <?php @include 'footer.php'; ?>
 
 <script src="js/script.js"></script>
-
 </body>
 </html>
