@@ -246,26 +246,26 @@ section{
    margin: 0 auto;
 }
 
-.dashboard .box-container .box{
+.dashboard .box-container .box {
    text-align: center;
-   border:var(--border);
-   background-color: var(--white);
+   border: var(--border);
+   background-color: #f72585;
    box-shadow: var(--box-shadow);
-   padding:2rem;
-   border-radius: .5rem;
+   padding: 2rem;
+   border-radius: 0.5rem;
 }
 
 .dashboard .box-container .box h3{
    font-size: 4.5rem;
-   color:var(--black);
+   color:white;
 }
 
-.dashboard .box-container .box p{
-   padding:1.5rem;
-   border-radius: .5rem;
-   background-color: var(--light-bg);
-   color:var(--light-color);
-   border:var(--border);
+.dashboard .box-container .box p {
+   padding: 1.5rem;
+   border-radius: 0.5rem;
+   background-color: #E6E6FA; /* light lavender */
+   color: #C71585; /* dark pink */
+   border: 0.2rem solid #4B0082; /* dark purple border */
    margin-top: 2rem;
    font-size: 2rem;
 }
@@ -449,7 +449,7 @@ section{
 .users .box-container .box{
    padding:2rem;
    border:var(--border);
-   background-color: var(--white);
+   background-color: lightgoldenrodyellow;
    box-shadow: var(--box-shadow);
    border-radius: .5rem;
    text-align: center;
@@ -483,7 +483,7 @@ section{
 .messages .box-container .box{
    padding:2rem;
    border:var(--border);
-   background-color: var(--white);
+   background-color: lightgoldenrodyellow;
    box-shadow: var(--box-shadow);
    border-radius: .5rem;
 }
@@ -564,3 +564,5 @@ section{
    }
 
 }
+
+
